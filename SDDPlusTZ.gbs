@@ -387,9 +387,9 @@ D 1 1.00
 F 1 1.00
  0.0856500 1.0
 ****
--H -B -C -N -O -F -P -S -Cl 0
+-H  B  C  N  O  F  P  S  Cl 0
 aug-cc-pVTz
 ****
 
--Sc -Ti -V -Cr -Mn -Fe -Co -Ni -Cu -Zn -Y -Zr -Nb -Mo -Ru -Rh -Pd -Ag -Cd -W -Os -Ir -Pt -Au -Gd  0
+-Sc  Ti  V  Cr  Mn  Fe  Co  Ni  Cu  Zn  Y  Zr  Nb  Mo  Ru  Rh  Pd  Ag  Cd  W  Os  Ir  Pt  Au  Gd  0
 SDD
