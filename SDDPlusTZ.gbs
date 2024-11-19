@@ -374,6 +374,8 @@ D 1 1.00
  G   1 1.00
       1.218    1.0
 ****
+!
+! Gd ... HPH Added S, P, D, and F diffuse functions using 0.3 exponent ratio.
 -Gd 0
 SDD
 S 1 1.00
