@@ -374,9 +374,20 @@ D 1 1.00
  G   1 1.00
       1.218    1.0
 ****
+-Gd 0
+SDD
+S 1 1.00
+ 0.0071100 1.0
+P 1 1.00
+ 0.0240000 1.0
+D 1 1.00
+ 0.0311100 1.0
+F 1 1.00
+ 0.0856500 1.0
+****
 -H -B -C -N -O -F -P -S -Cl 0
 aug-cc-pVTz
 ****
 
--Sc -Ti -V -Cr -Mn -Fe -Co -Ni -Cu -Zn -Y -Zr -Nb -Mo -Ru -Rh -Pd -Ag -Cd -W -Os -Ir -Pt -Au  0
+-Sc -Ti -V -Cr -Mn -Fe -Co -Ni -Cu -Zn -Y -Zr -Nb -Mo -Ru -Rh -Pd -Ag -Cd -W -Os -Ir -Pt -Au -Gd  0
 SDD
