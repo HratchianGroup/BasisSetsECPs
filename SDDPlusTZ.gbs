@@ -1,7 +1,7 @@
 ! SDDPlusTZ Basis Set + ECP
 !
 !
-! Last updated/modified by: H. P. Hratchian, August 2017.
+! Last updated/modified by: H. P. Hratchian, January 13, 2025.
 !
 !
 ! This file contains parameters for the SDD+TZ basis set and ECP, given in the
@@ -390,6 +390,22 @@ F 1 1.00
 -H  B  C  N  O  F  P  S  Cl 0
 aug-cc-pVTz
 ****
+!
+! Tb ... HPH Added S, P, D, and F diffuse functions using 0.3 exponent ratio.
+-Tb 0
+SDD
+S 1 1.00
+ 0.0069300 1.0
+P 1 1.00
+ 0.0240000 1.0
+D 1 1.00
+ 0.0317400 1.0
+F 1 1.00
+ 0.0859800 1.0
+****
+-H  B  C  N  O  F  P  S  Cl 0
+aug-cc-pVTz
+****
 
--Sc  Ti  V  Cr  Mn  Fe  Co  Ni  Cu  Zn  Y  Zr  Nb  Mo  Ru  Rh  Pd  Ag  Cd  W  Os  Ir  Pt  Au  Gd  0
+-Sc  Ti  V  Cr  Mn  Fe  Co  Ni  Cu  Zn  Y  Zr  Nb  Mo  Ru  Rh  Pd  Ag  Cd  W  Os  Ir  Pt  Au  Gd  Tb  0
 SDD
