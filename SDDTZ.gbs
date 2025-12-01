@@ -1,0 +1,42 @@
+! SDDTZ Basis Set and ECP
+!
+!
+! Last updated/modified by: H. P. Hratchian, December 1, 2025.
+!
+!
+! This file contains parameters for the SDDTZ basis set and ECP for several !
+! metals and non-metals.
+!
+! The SDDTZ set employs the SDD ECP and valence basis set for metals and the
+! aug-cc-pVTZ basis set for non-metals.
+!
+!
+-Sc Ti V Cr Mn Fe Co Ni Cu Zn  0
+SDD
+****
+-Y Zr Nb Mo Tc Ru Rh Pd Ag Cd  0
+SDD
+****
+-La Hf Ta W Re Os Ir Pt Au Hg  0
+SDD
+****
+-Ac                            0
+SDD
+****
+-Ce Pr Nd Pm Sm Eu Gd Tb Dy Ho Er Tm Yb Lu   0
+SDD
+****
+-H  B  C  N  O  F  P  S  Cl  0
+aug-cc-pVTz
+****
+
+-Sc Ti V Cr Mn Fe Co Ni Cu Zn  0
+SDD
+-Y Zr Nb Mo Tc Ru Rh Pd Ag Cd  0
+SDD
+-La Hf Ta W Re Os Ir Pt Au Hg  0
+SDD
+-Ac                            0
+SDD
+-Ce Pr Nd Pm Sm Eu Gd Tb Dy Ho Er Tm Yb Lu   0
+SDD
