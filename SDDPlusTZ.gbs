@@ -375,6 +375,21 @@ D 1 1.00
       1.218    1.0
 ****
 !
+! Sm ... HPH added s, p, d, and f diffuse functions using 0.3 exponent ratio.
+-Sm 0
+SDD
+ S   1 1.00       0.000000000000
+      0.6720000000D-02  0.1000000000D+01
+ P   1 1.00       0.000000000000
+      0.2400000000D-02  0.1000000000D+01
+ D   1 1.00       0.000000000000
+      0.3249000000D-01  0.1000000000D+01
+ F   1 1.00       0.000000000000
+      0.8328000000D-01  0.1000000000D+01
+ G   1 1.00       0.000000000000
+      0.8328000000D-01  0.1000000000D+01
+****
+!
 ! Gd ... HPH Added S, P, D, and F diffuse functions using 0.3 exponent ratio.
 -Gd 0
 SDD
@@ -387,25 +402,50 @@ D 1 1.00
 F 1 1.00
  0.0856500 1.0
 ****
--H  B  C  N  O  F  P  S  Cl 0
-aug-cc-pVTz
-****
-!
-! Tb ... HPH Added S, P, D, and F diffuse functions using 0.3 exponent ratio.
--Tb 0
+!hph+
+!!
+!! Tb ... HPH Added S, P, D, and F well-tempered diffuse functions.
+!-Tb 0
+!SDD
+!S 1 1.00
+! 0.0095118 1.0
+!P 1 1.00
+! 0.0250000 1.0
+!D 1 1.00
+! 0.0327299 1.0
+!F 1 1.00
+! 0.1033900 1.0
+!G 1 1.00
+! 0.1033900 1.0
+!****
+!-Tb 0
+!SDD
+!S 1 1.00
+! 0.0069300 1.0
+!P 1 1.00
+! 0.0240000 1.0
+!D 1 1.00
+! 0.0317400 1.0
+!F 1 1.00
+! 0.0859800 1.0
+!****
+Tb 0
 SDD
 S 1 1.00
- 0.0069300 1.0
+ 0.9511764706D-02 1.0
 P 1 1.00
- 0.0240000 1.0
+ 0.3456269845D-01 1.0
 D 1 1.00
- 0.0317400 1.0
+ 0.6095816327D-01 1.0
 F 1 1.00
- 0.0859800 1.0
+ 0.1281649047D+00 1.0
+G 1 1.00
+ 0.1056702780D+00 1.0
 ****
+!hph-
 -H  B  C  N  O  F  P  S  Cl 0
 aug-cc-pVTz
 ****
 
--Sc  Ti  V  Cr  Mn  Fe  Co  Ni  Cu  Zn  Y  Zr  Nb  Mo  Ru  Rh  Pd  Ag  Cd  W  Os  Ir  Pt  Au  Gd  Tb  0
+-Sc  Ti  V  Cr  Mn  Fe  Co  Ni  Cu  Zn  Y  Zr  Nb  Mo  Ru  Rh  Pd  Ag  Cd  W  Os  Ir  Pt  Au  Sm  Gd  Tb  0
 SDD
